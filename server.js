@@ -21,6 +21,11 @@ const port = process.env.PORT || 3001;
 
 app.set('port', port);
 
+// Express only serves static assets in production
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'));
+}
+
 app.use(compression());
 app.use(cors());
 app.use(bodyParser.json());
