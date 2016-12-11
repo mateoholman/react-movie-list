@@ -1,0 +1,147 @@
+.App {
+  margin: 10px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #436280;
+}
+
+h1 {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 3em;
+  color: #000;
+}
+
+/***Buttons********************************************************************/
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #ccf2ff;
+}
+
+.btn-submit {
+  background-color: #00BFFF;
+  color: #000;
+  padding: 5px;
+  font-size: 1em;
+  margin-left: 1em;
+}
+
+.btn-add {
+  background-color: #00BFFF;
+  color: #000;
+  padding: 10px;
+  font-size: .85em;
+  float: right;
+}
+
+.fa-times-circle {
+  font-size: 25px;
+  color: #9c0a0a;
+}
+
+.fa-times-circle:hover {
+  color: #5d0606;
+}
+
+.fa-info-circle {
+  font-size: 25px;
+  color: blue;
+}
+
+.fa-info-circle:hover {
+  color: darkblue;
+}
+
+.right-corner {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1;
+}
+
+.left-corner {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  z-index: 1;
+}
+
+/***Search Bar ****************************************************************/
+.search-bar {
+  width: 25em;
+  height: 2em;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/***Info Panel ****************************************************************/
+.info-panel {
+  margin: 5px;
+  background-color: #000;
+  border: solid white 2px;
+  border-radius: 10px;
+  width: auto;
+  padding: 5px;
+  max-width: 600px;
+}
+
+.info-panel h1,h2,h3,h4,p {
+  color: #fff;
+}
+
+.info-panel h1 {
+  line-height: 40px;
+}
+
+.infoPoster img {
+  width: 200px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+/***Movie Panel****************************************************************/
+
+#movie {
+  max-width: 320px;
+  border: solid black 2px;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #a3bad2;
+  text-align: center;
+  font-family: 'IM Fell English', serif;
+  position: relative;
+}
+
+#movie:hover {
+  background-color: #ccf2ff;
+}
+
+.container {
+  display: inline-flex;
+}
+.moviePoster img {
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+}
+
+.movie-title h2 {
+  color: #000;
+  word-wrap: break-word;
+}
